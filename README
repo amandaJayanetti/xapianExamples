@@ -1,0 +1,28 @@
+This is a prototype implementation of the Indexing example in the 'Getting started guide' of Xapian. (http://getting-started-with-xapian.readthedocs.org/en/latest/practical_example/indexing/index.html).
+
+****Latest development version of xapian should be installed (xapian-1.3)
+
+****Installing the package [Note: these examples have only been tested in the developed machine. In case if an issue arises during installation, please contact me at amandajayanetti@gmail.com for guidance and/or assistance to build it from source.)
+
+
+****If devtools is not already installed [install.packages("devtools")]
+
+library(devtools)
+install_github("amandaJayanetti/xapianExamples")
+
+****Index-Plan
+
+db<-c("path/to/DB")
+
+data<-c("path/to/data")
+
+id<-c(0)
+
+indexFields <-list( list(2,"S","Title"), list(8,"XD","Description"))
+
+xapian_index(db,data,id,indexFields,"en")
+
+
+****Inspecting the database
+
+xapian_inspectDB(db)
