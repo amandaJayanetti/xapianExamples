@@ -1,4 +1,4 @@
-This is a prototype implementation of the Indexing example in the 'Getting started guide' of Xapian. (http://getting-started-with-xapian.readthedocs.org/en/latest/practical_example/indexing/index.html).
+This is a prototype implementation of the Indexing example in the 'Getting started guide' of Xapian in R language. (http://getting-started-with-xapian.readthedocs.org/en/latest/practical_example/indexing/index.html).
 
 ****Latest development version of xapian should be installed (xapian-1.3)
 
