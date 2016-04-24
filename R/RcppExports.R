@@ -9,7 +9,5 @@ index <- function(dbpath, datapath, idField, indexFields, stemmer) {
     invisible(.Call('xapianExamples_index', PACKAGE = 'xapianExamples', dbpath, datapath, idField, indexFields, stemmer))
 }
 
-rcpp_hello_world <- function() {
-    .Call('xapianExamples_rcpp_hello_world', PACKAGE = 'xapianExamples')
-}
+
 
