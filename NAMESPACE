@@ -1,3 +1,1 @@
-useDynLib(xapianExamples)
-exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)
+export(xapian_index)
